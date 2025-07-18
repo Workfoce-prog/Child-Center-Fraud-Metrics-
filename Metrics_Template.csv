@@ -1,0 +1,14 @@
+Metric,Description,Red Flags,Data Source,Thresholds
+Overbilling Ratio (OBR),Claimed vs. actual verified attendance,>20% gap,Payment vs. attendance logs,Flag if >20%
+No-Show Record Frequency (NSRF),Billed days with no attendance log,3+ consecutive days,Swipe logs,>10% of total days
+Locked/Empty Visit Alert (LEVA),Unannounced visits find center closed,Center locked midday,Field visit logs,≥2 events/month
+Attendance Pattern Anomaly (APA),Identical daily attendance values,95%+ identical days,Attendance rosters,95%+ uniformity
+Revenue Per Child Index (RPCI),Avg. revenue per child vs. median,>2x normal,Finance system,2x median
+License Violation Risk (LVR),Past violations or open complaints,Conditional license,Licensing portal,Any active violation
+Cross-Program Funding Flag (CPFF),Fraud alerts across DHS programs,Match with FOF fraud,Funding DBs,Any match
+Staffing Ratio Conflict (SRC),Insufficient adult-child ratio,1 staff per 20 infants,Enrollment vs. HR,Ratio >1:12
+Ghost Staff Indicator (GSI),Unverifiable staff records,ID mismatch or no-show,Payroll vs. inspection,≥2 ghosts
+Rapid Payment Growth Flag (RPGF),Payment spike with no growth,>30% in 2 months,Fiscal DB,>25% MoM growth
+Non-Operating Hour Billing,Billed outside approved hours,Billing past 10PM,Billing vs. license,Mismatch triggers alert
+Suspicious Relationship Index (SRI),Linked to convicted vendors,Shared address/LLC,OIG & public records,Any match
+Cluster Risk Score (CRS),ML similarity to past fraud,Score >75,Fraud DB + ML,High cluster risk

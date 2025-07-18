@@ -1,0 +1,6 @@
+Provider,Overbilling Ratio (OBR),No-Show Record Frequency (NSRF),Locked/Empty Visit Alert (LEVA),Attendance Pattern Anomaly (APA),Revenue Per Child Index (RPCI),License Violation Risk (LVR),Cross-Program Funding Flag (CPFF),Staffing Ratio Conflict (SRC),Ghost Staff Indicator (GSI),Rapid Payment Growth Flag (RPGF),Non-Operating Hour Billing,Suspicious Relationship Index (SRI),Cluster Risk Score (CRS)
+Center 1,25,12,2,95,2.5,80,1,15,2,35,1,1,85
+Center 2,10,5,0,70,1.3,40,0,10,0,15,0,0,60
+Center 3,35,18,3,98,3.2,90,1,20,3,40,2,1,90
+Center 4,20,9,1,90,1.8,60,0,12,1,25,0,0,75
+Center 5,15,6,0,65,1.5,30,0,11,0,20,0,0,50

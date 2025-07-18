@@ -1,0 +1,8 @@
+
+Tableau Dashboard Wireframe:
+- Title: CCAP Fraud Risk Monitor
+- Filters: County, Provider Type, Risk Tier
+- KPIs: Avg. CCFRI, # of High-Risk Centers, Violation Rate
+- Maps: Risk Scores by County
+- Tables: Metric Scores by Provider
+- Actions: Flag provider for audit, Link to complaint history
